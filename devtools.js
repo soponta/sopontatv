@@ -23,7 +23,7 @@ if (Y90.indexOf("fili=") > -1) {
   ilif = ilif.split("`")[0];
 }
 ilif = ilif.replace(/@/g, "':'").replace(/~/g, "','");
-sss = "<style>*{margin:0;padding:0;outline:0}#containers{position:absolute;width:100%!important;height:100%!important}*:focus{outline:0}</style><section id='wrap'><div class='youtube-theme video-fill' style='object-fit:fill cover;'><video autoplay='true' autostart='true' data-shaka-player='' poster='https://cdn.jsdelivr.net/gh/soponta/sharedtv@main/bg_LCD.jpg' id='youtube-theme' style='width: 100vw; height: calc(var(--vh, 1vh) * 100);'></video></div></section><div class='shaka-range-container shaka-volume-bar-container' style='background:linear-gradient(to right,#ffffff 100%,rgba(255,255,255,0.54) 100%,rgba(255,255,255,0.54) 100%)'></div><div class='shaka-range-container shaka-seek-bar-container' style='background:rgba(255,255,255,0.3)'><script>const manifestUri='" + 
+sss = "<style>*{margin:0;padding:0;outline:0}#containers{position:absolute;width:100%!important;height:100%!important}*:focus{outline:0}</style><section id='wrap'><div class='youtube-theme video-fill' style='object-fit:fill cover;'><video autoplay='true' autostart='true' data-shaka-player='' poster='https://cdn.jsdelivr.net/gh/soponta/sopontatv@main/bg_LCD.jpg' id='youtube-theme' style='width: 100vw; height: calc(var(--vh, 1vh) * 100);'></video></div></section><div class='shaka-range-container shaka-volume-bar-container' style='background:linear-gradient(to right,#ffffff 100%,rgba(255,255,255,0.54) 100%,rgba(255,255,255,0.54) 100%)'></div><div class='shaka-range-container shaka-seek-bar-container' style='background:rgba(255,255,255,0.3)'><script>const manifestUri='" + 
 alif + "';async function init(){const video=document.getElementById('youtube-theme');const ui=video['ui'];const controls=ui.getControls();const player=controls.getPlayer();const config={'controlPanelElements':['play_pause','time_and_duration','mute','volume','spacer','captions','language','quality','fullscreen']};";
 ttt = "player.configure({drm:{clearKeys:{'" + elif + "'}}})";
 if (ei > 1) {
@@ -44,7 +44,7 @@ function periksaDomain() {
     }
   }
   if (!H) {
-    window.location.href = "https://linktr.ee/somedia";
+    window.location.href = "https://linktr.ee/somedia7";
   }
 }
 if (window == window.top) {
